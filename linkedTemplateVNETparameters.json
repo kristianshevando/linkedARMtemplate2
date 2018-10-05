@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "KristianShevandoVNET"
+        },
+        "location": {
+            "value": "northeurope"
+        },
+        "resourceGroup": {
+            "value": "KristianShevandoRG"
+        },
+        "addressPrefix": {
+            "value": "10.10.0.0/16"
+        },
+        "subnet1Name": {
+            "value": "KristianFrontEnd"
+        },
+        "subnet1AddressPrefix": {
+            "value": "10.10.1.0/24"
+        },
+        "subnet2Name": {
+            "value": "KristianBackEnd"
+        },
+        "subnet2AddressPrefix": {
+            "value": "10.10.2.0/24"
+        },
+        "enableDdosProtection": {
+            "value": false
+        }
+    }
+}
